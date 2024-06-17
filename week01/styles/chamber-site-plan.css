@@ -1,0 +1,58 @@
+header {
+    text-align: center;
+    background-color: #017dca;
+    padding: 25px;
+    color: white;
+}
+
+main {
+    text-align: center;
+}
+
+main,
+.colors {
+    margin: auto auto;
+}
+
+.colors,
+tr,
+td {
+    border: 2px solid rgb(000, 000, 000, 0.5);
+    padding: 10px;
+}
+
+.primary {
+    background-color: #017dca;
+    color: white;
+}
+
+.secondary {
+    background-color: #0b8e62;
+    color: #000000;
+}
+
+.ascent1 {
+    background-color: #131817;
+    color: white;
+}
+
+img {
+    margin-top: 70px;
+    gap: 20px;
+}
+
+.large {
+    margin-right: 40px;
+    vertical-align: top;
+}
+
+h1,
+h2,
+h3,
+h4 {
+    font-family: "Laila", "open sans";
+}
+
+p {
+    font-family: "Alegreya", Verdana, Tahoma, sans-serif;
+}
