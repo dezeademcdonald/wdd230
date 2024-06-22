@@ -7,7 +7,7 @@ footer {
 header {
     background-color: steelblue;
     color: white;
-    padding: 20px;
+    padding: 25px;
     margin-bottom: 0px;
     font-size: 1.5rem;
     font-family: "Open Sans", sans-serif;
@@ -17,14 +17,6 @@ nav {
     background-color: black;
     font-size: 1.5rem;
     font-family: "Open Sans", sans-serif;
-}
-
-nav,
-a {
-    display: block;
-    color: white;
-    text-decoration: none;
-    padding: 10px;
 }
 
 nav a:hover {
@@ -68,19 +60,60 @@ h2 {
 ul,
 li,
 a {
-    color: unset;
+    color: black;
     list-style-type: none;
     font-size: 1.5rem;
     font-family: "Open Sans", sans-serif;
+    text-decoration: none;
 }
 
 h1 {
     font-family: "Open Sans", sans-serif;
-    margin-bottom: 0px;
+    margin-bottom: 15px;
 }
 
 p {
-    font-size: 0.5;
+    font-size: 1.5rem;
     font-family: "Roboto", sans-serif;
     text-align: center;
+}
+
+footer {
+    padding: 15px;
+}
+
+#menu {
+    display: block;
+    font-size: 2.5rem;
+    text-decoration: none;
+    font-weight: 800;
+    padding: .5rem .45rem;
+    background-color: #eee;
+    color: #000;
+    position: absolute;
+    top: 2vh;
+    right: 2vh;
+}
+
+#menu::before {
+    content: '☰';
+}
+
+#menu.open::before {
+    content: 'X';
+}
+
+.navigation a {
+    display: none;
+}
+
+nav a {
+    display: block;
+    color: white;
+    text-decoration: none;
+    padding: 10px;
+}
+
+.open a {
+    display: block;
 }

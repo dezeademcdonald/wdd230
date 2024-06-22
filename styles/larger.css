@@ -9,18 +9,17 @@
         text-align: center;
     }
 
-    .card,
-    p {
-        margin-top: 40px;
-    }
-
     .card {
         margin: 20px;
     }
 
-    nav a {
+    .navigation a {
         display: inline-block;
         margin: 15px;
         padding: 10px;
+    }
+
+    #menu {
+        display: none;
     }
 }
