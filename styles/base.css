@@ -62,7 +62,7 @@ li,
 a {
     color: black;
     list-style-type: none;
-    font-size: 1.5rem;
+    font-size: 1.3rem;
     font-family: "Open Sans", sans-serif;
     text-decoration: none;
 }
@@ -76,6 +76,11 @@ p {
     font-size: 1.5rem;
     font-family: "Roboto", sans-serif;
     text-align: center;
+}
+
+.card p {
+    font-size: unset;
+    font-size: 1.3rem;
 }
 
 footer {
