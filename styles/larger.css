@@ -22,4 +22,9 @@
     #menu {
         display: none;
     }
+
+    .hero span {
+        font-size: 2rem;
+        font-family: "Open Sans", sans-serif;
+    }
 }

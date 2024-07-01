@@ -24,7 +24,7 @@
 
 <body>
     <header>
-        <img src="images/mcdonald.jpg" alt="McDonald W De-zeade">
+        <img src="images/mcdonald.webp" alt="McDonald W De-zeade" loading="lazy">
         <span>McDonald W. De-zeade</span>
     </header>
     <span id="menu"></span>
@@ -34,6 +34,14 @@
         <a href="https://dezeademcdonald.github.io/wdd230/week01/chamber-site-plan.html">Site Plan</a>
         <a href="#">Form</a>
     </nav>
+    <div class="hero">
+        <picture>
+            <source srcset="images/bismarck-temple-lds-small.webp" media="(max-width: 400px)">
+            <source srcset="images/bismarck-temple-lds-medium.webp" media="(max-width: 960px)">
+            <img src="images/bismarck-temple-lds-large.webp" alt="Temple Image" width="400" height="200" loading="lazy">
+        </picture>
+        <span>Bismarck Temple LDS</span>
+    </div>
     <main>
         <h1>WDD 230: Web Frontend Development</h1>
         <section class="card">
@@ -41,9 +49,9 @@
             <ul>
                 <li><a href="#">Week 01:</a></li>
                 <li><a href="#">Week 02:</a></li>
-                <li><a href="#">Week 03:<a href="week03/images/landscape.webp"> WebP</a> | <a
-                            href="week03/lazyload.html">Lazy
-                            Loading</a> | <a href="week03/responsive-image.html">Responsive Image</a></a></li>
+                <li><a href="#">Week 03:</a><a href="week03/images/landscape.webp"> WebP</a> | <a
+                        href="week03/lazyload.html">Lazy
+                        Loading</a> | <a href="week03/responsive-image.html">Responsive Image</a></li>
                 <li><a href="#">Week 04:</a></li>
                 <li><a href="#">Week 05:</a></li>
                 <li><a href="#">Week 06:</a></li>
@@ -56,13 +64,19 @@
             <p>Page Visit: <span id="visit"></span></p>
         </section>
     </main>
+    <div class="frame">
+        <iframe
+            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d7931.571147354201!2d-10.783390696513546!3d6.291888444570669!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0xf0a0398b8471307%3A0x4dda0ca0e8cf1cb9!2sHarbel%20Supermarket%20Corporation!5e0!3m2!1sen!2s!4v1719804585446!5m2!1sen!2s"
+            style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+    </div>
     <footer>
-        <p>&copy;<span id="year"></span> - McDonald W De-zeade - Republic of Liberia - <img src="images/web-flag.jpg"
-                alt="Liberia's Plag"></p>
+        <p>&copy;<span id="year"></span> - McDonald W De-zeade - Republic of Liberia - <img src="images/web-flag.webp"
+                alt="Liberia's Plag" loading="lazy"></p>
         <p id="lastModified"></p>
     </footer>
     <script src="scripts/getDates.js"></script>
     <script src="scripts/hamburger-menu.js"></script>
+    <script src="scripts/page-visit.js"></script>
 </body>
 
 </html>
