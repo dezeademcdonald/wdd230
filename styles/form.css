@@ -1,0 +1,45 @@
+body #mainForm {
+    display: grid;
+    grid-template-columns: 1fr;
+}
+
+.webForm label {
+    display: block;
+    padding-top: 1rem;
+    font-size: 1.5rem;
+    font-family: "Roboto", sans-serif;
+}
+
+.webForm input[type="text"],
+.webForm input[type="password"],
+.webForm input[type="email"],
+.webForm input[type="range"],
+.webForm input[type="submit"] {
+    display: block;
+    border-radius: 10px;
+}
+
+.webForm {
+    display: grid;
+    justify-content: center;
+}
+
+.webForm fieldset {
+    background-color: lightgreen;
+    border-radius: 10px;
+    box-shadow: 5px 15px lightgray;
+}
+
+input[type="submit"] {
+    margin: 2rem 5rem;
+    padding: 10px;
+    font-size: 1.3rem;
+    background-color: lightblue;
+    border-radius: 5px;
+    font-family: "Roboto", sans-serif;
+}
+
+#feedback {
+    font-size: 1.3rem;
+    font-family: "Roboto", sans-serif;
+}

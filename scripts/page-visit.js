@@ -7,7 +7,7 @@ if (numVisits !== 0) {
 }
 
 else {
-    visitDisplay.textContent = `This is your first visit. 🥳 Welcome!`;
+    visitDisplay.textContent = "This is your first visit. 🥳 Welcome!";
 }
 
 numVisits++;
