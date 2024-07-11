@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en-US">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="author" content="McDonald W. De-zeade">
+    <meta name="description" content="Monrovia city chamber of commerce sit form">
+    <meta property="og:type" content="website">
+    <meta property="og:title" content="Monrovia city chamber of commerce content">
+    <meta property="og:url" content="https://dezeademcdonald.github.io/wdd230/chamber/index.html">
+    <meta property="og:image" content="https://i.pinimg.com/originals/ad/dc/68/addc6892d4e52a98ae9215e822739360.jpg">
+    <title>Chamber Site Form</title>
+    <link rel="stylesheet" href="styles/normalized.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Alegreya:ital,wght@0,400..900;1,400..900&family=Laila:wght@300;400;500;600;700&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="styles/base.css">
+    <link rel="stylesheet" href="styles/larger.css">
+    <link rel="icon" href="favicon-s.ico">
+</head>
+
+<body>
+    <nav>
+        <img class="logo-image" src="images/logo-small.png" alt="logo image">
+        <ul class="links">
+            <li><a href="#">Home</a></li>
+            <li><a href="#">Discover</a></li>
+            <li><a href="#">Directory</a></li>
+            <li><a href="#">Join</a></li>
+        </ul>
+    </nav>
+    <header>
+        <h2>Welcome!!</h2>
+        <button class="button">Join Us</button>
+    </header>
+    <main>
+        <form method="get" action="thankyou.html" class="chamberForm">
+            <fieldset>
+                <legend>Applicant Information</legend>
+                <label>First Name:<input type="text" name="firstName" id="firstName" required></label>
+                <label>Last Name:<input type="text" name="lastName" id="lastName" required></label>
+                <label>Title or Position:<input type="text" name="position" id="position" pattern="/^[A-Za-z\s\-]{7,}$/"
+                        title="pattern to only accept alpha characters, hyphens, and spaces with a minimum of seven characters "></label>
+                <label>Email Address:<input type="email" name="email" id="email" placeholder="someone@gmail.com"
+                        required></label>
+                <label>Mobile Phone Number:<input type="tel" name="telephone" id="telephone" required></label>
+                <label>Business/Organization's Name:<input type="text" name="bussinessName" id="bussinessName"
+                        required></label>
+            </fieldset>
+            <fieldset>
+                <legend>Membership Levels</legend>
+                <label><input type="radio" name="membership" value="yes">Non Profit Organization Membership</label>
+                <label><input type="radio" name="membership" value="yes">Bronze Membership</label>
+                <label><input type="radio" name="membership" value="yes">Silver Membership</label>
+                <label><input type="radio" name="membership" value="yes">Gold Membership</label>
+            </fieldset>
+            <fieldset>
+                <legend>Business/Organization's Description</legend>
+                <div>Text Area:</div>
+                <label><textarea name="description" id="description"></textarea></label>
+            </fieldset>
+            <label><input type="hidden" name="timestamp" id="timestamp"></label>
+            <label><input type="submit" id="submit" value="Forward My Application"></label>
+        </form>
+        <section class="membershipBenefits">
+            <h2>Membership's Benefits</h2>
+            <ul>
+                <li><strong>Non Profit Organization Membership:</strong> No fee, access to special events.</li>
+                <li><strong>Bronze Membership:</strong> Training sessions, advertising opportunities.</li>
+                <li><strong>Silver Membership:</strong> All Bronze benefits, plus event discounts.</li>
+                <li><strong>Gold Membership:</strong> All Silver benefits, plus spotlight positions on the home page.
+                </li>
+            </ul>
+        </section>
+    </main>
+    <footer>
+        <p class="footer-para">&copy;<span id="year"></span> - McDonald W De-zeade - WDD 230 Web Frontend Development
+        </p>
+        <div class="footer-img">
+            <a><img src="images/fb-.png" alt="facebook-icon"></a>
+            <a><img src="images/instagram.png" alt="instagram-icon"></a>
+        </div>
+        <p id="lastModified"></p>
+    </footer>
+    <script src="scripts/getDates.js"></script>
+</body>
+
+</html>

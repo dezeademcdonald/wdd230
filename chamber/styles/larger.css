@@ -28,4 +28,14 @@
     .logo-image {
         margin-bottom: 20px;
     }
+
+    /*----------Form Styles Start Here----------*/
+
+    .membershipBenefits {
+        grid-column: 2/4;
+    }
+
+    .chamberForm input[type="hidden"] {
+        grid-column: 2/3;
+    }
 }

@@ -102,3 +102,69 @@ h2 {
 h2 {
     font-size: 1.5rem;
 }
+
+/*----------Form Styles Starts Here------------*/
+
+.chamberForm label {
+    display: block;
+}
+
+main {
+    padding: 0px 15px;
+}
+
+.membershipBenefits ul {
+    padding: 10px;
+    list-style-type: none;
+}
+
+.membershipBenefits li {
+    font-family: "Alegreya", Verdana, Tahoma;
+    font-size: 1.5rem;
+    padding-top: 30px;
+}
+
+.chamberForm input[type="text"],
+.chamberForm input[type="email"],
+.chamberForm input[type="tel"] {
+    background-color: #eee;
+    display: block;
+    border: solid 1px #999;
+    border-radius: 6px;
+    padding: .75rem;
+    color: #555;
+    width: 90%;
+}
+
+.chamberForm input[type="radio"] {
+    display: inline-block;
+}
+
+.chamberForm fieldset {
+    margin-top: 10px;
+    background-color: lightseagreen;
+    text-align: left;
+    font-family: "Laila", "open-sans";
+}
+
+.chamberForm legend {
+    padding: 5px;
+    background-color: lightseagreen;
+    font-family: "Laila", "open-sans";
+}
+
+.membershipBenefits {
+    margin-top: 23px;
+}
+
+.chamberForm #submit {
+    margin-top: 35px;
+    padding: 15px;
+    background-color: rgb(112, 53, 53);
+    color: #fff;
+    font-family: "Laila", "open-sans";
+    font-size: 1.5rem;
+    border-radius: 25px;
+    border-style: double;
+    box-shadow: 5px 5px 5px #000;
+}
