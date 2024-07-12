@@ -29,6 +29,28 @@
         margin-bottom: 20px;
     }
 
+    /*----------Discover.html Styles Starts Here----------*/
+    .resp-img {
+        display: grid;
+        grid-template-columns: 1fr 4fr;
+        grid-template-rows: 1fr;
+    }
+
+    .gallery {
+        grid-column: 2/3;
+        grid-row: 1/3;
+    }
+
+    .side-logo,
+    .news {
+        grid-column: 1/2;
+        padding: 35px;
+    }
+
+    .gallery img:hover {
+        transform: scale(0.5);
+    }
+
     /*----------Form Styles Start Here----------*/
 
     .membershipBenefits {

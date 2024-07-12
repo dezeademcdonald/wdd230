@@ -103,6 +103,39 @@ h2 {
     font-size: 1.5rem;
 }
 
+/*----------Discover.html Styles Starts Here----------*/
+.gallery img {
+    width: 100%;
+    height: auto;
+    display: block;
+    margin: 20px;
+    align-items: center;
+}
+
+.side-log,
+.news h3 {
+    font-family: "Laila", "open-sans";
+    font-size: 1.5rem;
+}
+
+span {
+    font-family: "Alegreya", Verdana, Tahoma;
+    font-size: 1.5rem;
+}
+
+.news p {
+    font-family: "Alegreya", Verdana, Tahoma;
+    font-size: 1.5rem;
+}
+
+.news input[type="email"] {
+    padding: .75rem;
+    margin-bottom: 20px;
+    display: block;
+    font-family: "Alegreya", Verdana, Tahoma;
+    font-size: 1.5rem;
+}
+
 /*----------Form Styles Starts Here------------*/
 
 .chamberForm label {
