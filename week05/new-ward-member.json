@@ -1,0 +1,28 @@
+{
+    "famile name": "De-zeade",
+    "Entry date": 2021,
+    "Sum of family member": 4,
+    "Visited by bishopric": true,
+    "Individual family member": [
+        {
+            "name": "McDella D. De-zeade",
+            "gender": "female",
+            "birthday": "July 09, 2015"
+        },
+        {
+            "name": "Maxwell E. De-zeade",
+            "gender": "male",
+            "birthday": "June 11, 2017"
+        },
+        {
+            "name": "Ellen F. De-zeade",
+            "gender": "female",
+            "birthday": "May 03, 1999"
+        },
+        {
+            "name": "McDella D. De-zeade",
+            "gender": "male",
+            "birthday": "August 27, 1999"
+        }
+    ]
+}
