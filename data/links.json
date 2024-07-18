@@ -1,0 +1,69 @@
+{
+    "weeks": [
+        {
+            "weeks": "week 1",
+            "links": [
+                {
+                    "url": "week01/holygrail.html",
+                    "tile": "HG Layout"
+                },
+                {
+                    "url": "week/media-query.html",
+                    "tile": "mQueries"
+                }
+            ]
+        },
+        {
+            "weeks": "week 2",
+            "links": [
+                {
+                    "url": "week02/design.html",
+                    "tile": "Web Design Principles"
+                },
+                {
+                    "url": "week02/dom.html",
+                    "tile": "DOM Manipulation"
+                }
+            ]
+        },
+        {
+            "weeks": "week 3",
+            "links": [
+                {
+                    "url": "week03/landscape.html",
+                    "tile": "WebP"
+                },
+                {
+                    "url": "week03/lazyload.html",
+                    "tile": "Lazy Loading"
+                },
+                {
+                    "url": "week03/responsive-image.html",
+                    "tile": "Responsive Images"
+                }
+            ]
+        },
+        {
+            "weeks": "week 4",
+            "links": [
+                {
+                    "url": "week04/tablebuild.html",
+                    "tile": "Table"
+                }
+            ]
+        },
+        {
+            "weeks": "week 5",
+            "links": [
+                {
+                    "url": "week05/prophet.html",
+                    "tile": "Prophets"
+                },
+                {
+                    "url": "week05/weather.html",
+                    "tile": "Weahter"
+                }
+            ]
+        }
+    ]
+}
