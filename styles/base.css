@@ -30,11 +30,13 @@ img {
 }
 
 .card,
+#card-list,
 footer {
     border: 2px solid gray;
 }
 
-.card {
+.card,
+#card-list {
     margin-bottom: 25px;
     transition: .5s;
     box-shadow: 10px 10px 20px lightgrey;
