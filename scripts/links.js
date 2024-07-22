@@ -29,7 +29,6 @@ function displayLinks(weeks) {
             anchor.setAttribute("href", link.url);
             anchor.textContent = link.tile;
 
-
             liLink.appendChild(anchor);
             ulLink.appendChild(liLink);
             weekUl.appendChild(ulLink);
