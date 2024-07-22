@@ -24,14 +24,19 @@ const displayCompanies = (companies) => {
         img.setAttribute("src", company.image);
         img.setAttribute("alt", company.name);
         img.setAttribute("loading", "lazy");
+        anchor.setAttribute("href", "https://dezeademcdonald.github.io/wdd230/");
 
 
         hThree.textContent = company.name;
         para.textContent = company.address;
+        membership.textContent = company.membership;
+        anchor.textContent = company.url;
 
         card.appendChild(img);
         card.appendChild(hThree);
+        card.appendChild(membership);
         card.appendChild(para);
+        card.appendChild(anchor);
 
         main.appendChild(card);
     });
