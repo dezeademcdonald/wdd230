@@ -1,0 +1,53 @@
+{
+    "companies": [
+        {
+            "name": "Boulevard Palace",
+            "address": "13 Street, Sinkor",
+            "url": "https://boulevardpalace.com",
+            "image": "wdd230/chamber/images/boulevard-tin.webp",
+            "membership": "Gold"
+        },
+        {
+            "name": "Harbel Super Market",
+            "address": "16 Street, Sinkor",
+            "url": "https://harbelsuper.com",
+            "image": "wdd230/chamber/images/harbel-super-market-tin.webp",
+            "membership": "Gold"
+        },
+        {
+            "name": "Royal Grand Hotel",
+            "address": "15 Street, Sinkor",
+            "url": "https://royalhotel.com",
+            "image": "wdd230/chamber/images/Royal-Grand-Hotel-small.webp",
+            "membership": "Gold"
+        },
+        {
+            "name": "Tropicana Beach",
+            "address": "Thinker's Village, Central Monrovia",
+            "url": "https://tropicana.com",
+            "image": "wdd230/chamber/images/tropicana-beach-resort-samll.webp",
+            "membership": "Gold"
+        },
+        {
+            "name": "Murex & Plaza Hotel",
+            "address": "10 Street, Sinkor",
+            "url": "https://murex.com",
+            "image": "wdd230/chamber/images/murex-plaza-hotel.webp",
+            "membership": "Silver"
+        },
+        {
+            "name": "Mamba Point Resort and Hotel",
+            "address": "Central Monrovia",
+            "url": "https://mambaresort.com",
+            "image": "wdd230/chamber/images/mamba-point.webp",
+            "membership": "Gold"
+        },
+        {
+            "name": "Tecno House",
+            "address": "Capital Byepass",
+            "url": "https://tecnohouse.com",
+            "image": "wdd230/chamber/images/tecnoone.webp",
+            "membership": "Bronze"
+        }
+    ]
+}
