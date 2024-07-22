@@ -25,7 +25,7 @@
             "name": "Tropicana Beach",
             "address": "Thinker's Village",
             "url": "https://tropicana.com",
-            "image": "chamber/images/tropicana-beach-resort-samll.webp",
+            "image": "chamber/images/tropicana-beach-resort-small.webp",
             "membership": "Gold"
         },
         {
@@ -39,7 +39,7 @@
             "name": "Mamba Point Resort and Hotel",
             "address": "Central Monrovia",
             "url": "https://mambaresort.com",
-            "image": "chamber/images/mamba-point.webp",
+            "image": "chamber/images/mamba-point-hotel.webp",
             "membership": "Gold"
         },
         {

@@ -21,10 +21,10 @@ const displayCompanies = (companies) => {
         const membership = document.createElement("p");
         const main = document.querySelector("main")
 
-        img.setAttribute("src", company.image);
+        img.setAttribute("src", `https://dezeademcdonald.github.io/wdd230/${company.image}`);
         img.setAttribute("alt", company.name);
         img.setAttribute("loading", "lazy");
-        anchor.setAttribute("href", "https://dezeademcdonald.github.io/wdd230/");
+        anchor.setAttribute("href", company.url);
 
 
         hThree.textContent = company.name;
