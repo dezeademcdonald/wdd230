@@ -201,3 +201,26 @@ main {
     border-style: double;
     box-shadow: 5px 5px 5px #000;
 }
+
+#direct {
+    display: block;
+}
+
+#direct image {
+    width: 100%;
+}
+
+#direct section {
+    background-color: lightskyblue;
+    padding: 20px;
+}
+
+#direct p {
+    font-family: "Alegreya", Verdana, Tahoma;
+    font-size: 1.5rem;
+}
+
+#direct h3 a {
+    font-family: "Laila", "open-sans";
+    font-size: 1.5rem;
+}

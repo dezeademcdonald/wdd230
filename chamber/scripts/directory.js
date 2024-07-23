@@ -19,11 +19,12 @@ const displayCompanies = (companies) => {
         const img = document.createElement("img");
         const anchor = document.createElement("a");
         const membership = document.createElement("p");
-        const main = document.querySelector("main")
+        const main = document.querySelector("#direct")
 
         img.setAttribute("src", `https://dezeademcdonald.github.io/wdd230/${company.image}`);
         img.setAttribute("alt", company.name);
         img.setAttribute("loading", "lazy");
+        img.setAttribute("width", "100%")
         anchor.setAttribute("href", company.url);
 
 

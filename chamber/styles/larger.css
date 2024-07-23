@@ -51,7 +51,7 @@
         transform: scale(0.5);
     }
 
-    /*----------Form Styles Start Here----------*/
+    /*----------Form Styles Starts Here----------*/
 
     .membershipBenefits {
         grid-column: 2/4;
@@ -60,4 +60,14 @@
     .chamberForm input[type="hidden"] {
         grid-column: 2/3;
     }
+
+    /*----------Directory Styles Starts Here----------*/
+
+    #direct {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        padding-top: 30px;
+    }
+
+
 }
