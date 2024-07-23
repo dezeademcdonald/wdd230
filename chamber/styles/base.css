@@ -191,13 +191,13 @@ main {
 }
 
 .chamberForm #submit {
-    margin-top: 35px;
-    padding: 15px;
+    margin-top: 25px;
+    padding: 10px;
     background-color: rgb(112, 53, 53);
     color: #fff;
     font-family: "Laila", "open-sans";
-    font-size: 1.5rem;
-    border-radius: 25px;
+    font-size: 1.2rem;
+    border-radius: 15px;
     border-style: double;
     box-shadow: 5px 5px 5px #000;
 }
